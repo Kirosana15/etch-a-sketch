@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(214, 202, 202);
+}
+navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color:rgb(100, 0, 100);
+}
+
+navbar > h1 {
+    position: relative;
+    color:white;
+    font-family: 'Rock Salt';
+    font-size: 20px;
+    text-align: center;
+}
+
+.app {
+    display:grid;
+    position: absolute;
+    border: 5px solid black;
+    width:800px;
+    height: 800px;
+    margin: auto auto;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: white;
+}
+
+button {
+    position: absolute;
+    bottom: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.7rem 2rem;
+    border-radius: 15%;
+    background-color: rgb(100,0,100);
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 6px;
+    border: none;
+}
+
+.content {
+    position: relative;
+    width:800px;
+    height: 800px;
+    margin: auto auto;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.app > div {
+    border: 1px solid grey;
+}
