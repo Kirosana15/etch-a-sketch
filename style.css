@@ -28,12 +28,12 @@ navbar > h1 {
     display:grid;
     position: absolute;
     border: 5px solid black;
-    width:800px;
-    height: 800px;
     margin: auto auto;
     border-radius: 10%;
     overflow: hidden;
     background-color: white;
+    height: 100%;
+    width: 100%;
 }
 
 button {
@@ -53,8 +53,8 @@ button {
 
 .content {
     position: relative;
-    width:800px;
-    height: 800px;
+    width: 75vh;
+    height: 75vh;
     margin: auto auto;
     top: 50vh;
     transform: translateY(-50%);
